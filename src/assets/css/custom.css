@@ -1,0 +1,8 @@
+.navbar-toggler {
+	border: none; /* Remove default border */
+	box-shadow: none !important;
+}
+
+.navbar-toggler:focus {
+	outline: none; /* Remove focus outline */
+}
