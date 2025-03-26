@@ -19,9 +19,9 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-      <Container fluid className="my-4">
+      <div className="my-4">
         <HomeMarquee></HomeMarquee>
-      </Container>
+      </div>
       <div style={{ background: "#071322" }}>
         <Container className="my-4 py-5">
           <Row className="text-white text-center">
