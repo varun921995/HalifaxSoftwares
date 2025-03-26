@@ -12,10 +12,10 @@ const Home = () => {
         <Row>
           <Col className="text-center tag-block">
             <h1 className="headline">Professional Web Development Services</h1>
-            <span className="text-white tag-line">
+            <p className="text-white description">
               We tackle and preempt IT challenges by offering robust, customized
               software solutions that ensure peak performance and success.
-            </span>
+            </p>
           </Col>
         </Row>
       </Container>

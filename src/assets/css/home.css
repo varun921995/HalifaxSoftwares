@@ -27,41 +27,13 @@
 }
 
 @media (min-width: 375px) {
-  .headline {
-    color: white;
-    /* font-size: 28px; */
-  }
-  .tag-line {
-    font-size: small;
-  }
 }
 
 @media (min-width: 576px) {
-  .headline {
-    color: white;
-    /* font-size: 36px; */
-  }
-  .tag-line {
-    font-size: medium;
-  }
 }
 
 @media (min-width: 768px) {
-  .headline {
-    color: white;
-    /* font-size: 42px; */
-  }
-  .tag-line {
-    font-size: large;
-  }
 }
 
 @media (min-width: 1024px) {
-  .headline {
-    color: white;
-    /* font-size: 54px; */
-  }
-  .tag-line {
-    font-size: larger;
-  }
 }
