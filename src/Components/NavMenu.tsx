@@ -7,34 +7,43 @@ import { RxCross1 } from "react-icons/rx";
 import { NavLink } from "react-router-dom";
 
 const NavMenu = () => {
-	const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(false);
 
-	return (
-		<Navbar expand="lg" className="bg-body-tertiary" expanded={expanded}>
-			<Container fluid>
-				<Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-				<Navbar.Toggle
-					aria-controls="basic-navbar-nav"
-					onClick={() => setExpanded(!expanded)}>
-					{!expanded && <HiMiniBars4 />}
-					{expanded && <RxCross1 />}
-				</Navbar.Toggle>
-				<Navbar.Collapse id="basic-navbar-nav">
-					<Nav className="ms-auto">
-						{/* NavLink for Home */}
-						<Nav.Link as={NavLink} to="/">
-							Home
-						</Nav.Link>
+  return (
+    <Navbar
+      expand="lg"
+      className="bg-transparent navbar-dark fixed-top"
+      expanded={expanded}
+    >
+      <Container>
+        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          onClick={() => setExpanded(!expanded)}
+        >
+          {!expanded && <HiMiniBars4 />}
+          {expanded && <RxCross1 />}
+        </Navbar.Toggle>
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            {/* NavLink for Home */}
+            <Nav.Link as={NavLink} to="/" onClick={() => setExpanded(false)}>
+              Home
+            </Nav.Link>
 
-						{/* NavLink for About */}
-						<Nav.Link as={NavLink} to="/page2">
-							Page2
-						</Nav.Link>
-					</Nav>
-				</Navbar.Collapse>
-			</Container>
-		</Navbar>
-	);
+            {/* NavLink for About */}
+            <Nav.Link
+              as={NavLink}
+              to="/page2"
+              onClick={() => setExpanded(false)}
+            >
+              Page2
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 };
 
 export default NavMenu;

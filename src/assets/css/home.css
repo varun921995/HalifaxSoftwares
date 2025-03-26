@@ -1,0 +1,67 @@
+.headline {
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.subHeading {
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.description {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.tag-block {
+  padding: 5% 25%;
+}
+
+@media (min-width: 375px) {
+  .headline {
+    color: white;
+    /* font-size: 28px; */
+  }
+  .tag-line {
+    font-size: small;
+  }
+}
+
+@media (min-width: 576px) {
+  .headline {
+    color: white;
+    /* font-size: 36px; */
+  }
+  .tag-line {
+    font-size: medium;
+  }
+}
+
+@media (min-width: 768px) {
+  .headline {
+    color: white;
+    /* font-size: 42px; */
+  }
+  .tag-line {
+    font-size: large;
+  }
+}
+
+@media (min-width: 1024px) {
+  .headline {
+    color: white;
+    /* font-size: 54px; */
+  }
+  .tag-line {
+    font-size: larger;
+  }
+}

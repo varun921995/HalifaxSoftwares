@@ -1,8 +1,17 @@
 .navbar-toggler {
-	border: none; /* Remove default border */
-	box-shadow: none !important;
+  border: none; /* Remove default border */
+  box-shadow: none !important;
 }
 
 .navbar-toggler:focus {
-	outline: none; /* Remove focus outline */
+  outline: none; /* Remove focus outline */
+}
+
+body {
+  background: #1c2c36;
+  padding-top: 56px;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3) !important; /* Adjust transparency */
+  transition: background-color 0.3s ease-in-out;
 }
