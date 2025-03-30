@@ -6,6 +6,7 @@ import image7 from "/img/home/image7.png";
 import image8 from "/img/home/image8.png";
 import image9 from "/img/home/image9.png";
 import image10 from "/img/halifax-tech/image2.webp";
+import { FaArrowCircleRight } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -14,10 +15,25 @@ const Home = () => {
         <Row>
           <Col className="text-center tag-block">
             <h1 className="headline">Professional Web Development Services</h1>
-            <p className="text-white description">
+            <h6 className="text-white description lh-base">
               We tackle and preempt IT challenges by offering robust, customized
               software solutions that ensure peak performance and success.
-            </p>
+            </h6>
+          </Col>
+        </Row>
+        <Row className="d-flex justify-content-center align-items-center">
+          <Col xs="auto">
+            <Button className="btn btn-md px-4 py-2 unleash-potential-btn rounded">
+              Contact Us
+            </Button>
+          </Col>
+          <Col xs="auto">
+            <h6 className="text-white description">
+              <b>
+                Book a Call with Our Digital Business Expert
+                <FaArrowCircleRight className="mx-2" />
+              </b>
+            </h6>
           </Col>
         </Row>
       </Container>
