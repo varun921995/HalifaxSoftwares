@@ -37,7 +37,14 @@ const NavMenu = () => {
               to="/page2"
               onClick={() => setExpanded(false)}
             >
-              Page2
+              What do we do
+            </Nav.Link>
+            <Nav.Link
+              as={NavLink}
+              to="/page2"
+              onClick={() => setExpanded(false)}
+            >
+              How do we do
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

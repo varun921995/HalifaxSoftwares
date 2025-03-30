@@ -8,7 +8,6 @@
 }
 
 .subHeading {
-  color: white;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -26,6 +25,27 @@
   padding: 5% 25%;
 }
 
+.card-bg {
+  background: #1c2c36;
+}
+
+.card-border-left {
+  border-left: 6px solid #57b8ba; /* Adjust thickness and color */
+  padding-left: 15px; /* Optional: Add spacing inside */
+}
+.unleash-potential-btn {
+  background: #57b8ba;
+  color: black;
+  border-radius: 0px;
+  border-width: 0px;
+  padding: 1.2% 2%;
+}
+.unleash-potential-btn:hover {
+  background: #389294;
+  color: black;
+  border-radius: 0px;
+  border-width: 0px;
+}
 @media (min-width: 375px) {
 }
 
