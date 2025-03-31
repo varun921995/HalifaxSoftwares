@@ -6,7 +6,7 @@ import image7 from "/img/home/image7.png";
 import image8 from "/img/home/image8.png";
 import image9 from "/img/home/image9.png";
 import image10 from "/img/halifax-tech/image2.webp";
-import { FaArrowCircleRight } from "react-icons/fa";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -23,15 +23,15 @@ const Home = () => {
         </Row>
         <Row className="d-flex justify-content-center align-items-center">
           <Col xs="auto">
-            <Button className="btn btn-md px-4 py-2 unleash-potential-btn rounded">
+            <Button className="btn btn-md px-4 py-2 unleash-potential-btn">
               Contact Us
             </Button>
           </Col>
           <Col xs="auto">
-            <h6 className="text-white description">
+            <h6 className="text-white description pt-2">
               <b>
                 Book a Call with Our Digital Business Expert
-                <FaArrowCircleRight className="mx-2" />
+                <FaLongArrowAltRight className="mx-2" />
               </b>
             </h6>
           </Col>
@@ -45,24 +45,24 @@ const Home = () => {
           <Row className="text-white text-center">
             <Col sm={12} md={12} lg={4}>
               <h2 className="subHeading">Custom Web Design Solutions</h2>
-              <p className="description">
+              <h6 className="description lh-base  mb-5">
                 Crafting unique, visually appealing websites tailored to your
                 brand's identity and goals.
-              </p>
+              </h6>
             </Col>
             <Col sm={12} md={12} lg={4}>
               <h2 className="subHeading">Responsive Website Development</h2>
-              <p className="description">
+              <h6 className="description lh-base  mb-5">
                 Building adaptable websites that deliver optimal performance and
                 user experience across all devices.
-              </p>
+              </h6>
             </Col>
             <Col sm={12} md={12} lg={4}>
               <h2 className="subHeading">E-commerce Platform Integration</h2>
-              <p className="description">
+              <h6 className="description lh-base  mb-5">
                 Seamlessly integrating e-commerce solutions to enhance your
                 online retail presence and customer engagement.
-              </p>
+              </h6>
             </Col>
           </Row>
         </Container>
@@ -84,10 +84,10 @@ const Home = () => {
               className="rounded"
             ></Image>
             <h2 className="my-3 subHeading">Custom Website Design Solutions</h2>
-            <p className="description">
+            <h6 className="description lh-base mb-5">
               Our team crafts stunning, user-friendly websites tailored to your
               brand's unique identity.
-            </p>
+            </h6>
           </Col>
           <Col>
             <Image
@@ -97,10 +97,10 @@ const Home = () => {
               className="rounded"
             ></Image>
             <h2 className="my-3 subHeading">E-commerce Development Services</h2>
-            <p className="description">
+            <h6 className="description lh-base  mb-5">
               We build secure, scalable online stores that enhance your
               customers' shopping experience.
-            </p>
+            </h6>
           </Col>
           <Col>
             <Image
@@ -110,10 +110,10 @@ const Home = () => {
               className="rounded"
             ></Image>
             <h2 className="my-3 subHeading">Responsive Web Applications</h2>
-            <p className="description">
+            <h6 className="description lh-base  mb-5">
               Designing adaptive web apps that function seamlessly across all
               devices and platforms.
-            </p>
+            </h6>
           </Col>
         </Row>
       </Container>
@@ -123,7 +123,7 @@ const Home = () => {
           <Row className="text-white text-center">
             <h1 className="headline">Elevate Your Online Presence Now.</h1>
           </Row>
-          <Row className="text-white text-center py-5 align-items-center">
+          <Row className="text-white  py-5 align-items-center">
             <Col sm={12} md={12} lg={6}>
               <Image
                 src={image9}
@@ -133,11 +133,11 @@ const Home = () => {
               ></Image>
             </Col>
 
-            <Col sm={12} md={12} lg={6}>
+            <Col sm={12} md={12} lg={6} className="pt-3">
               <h2 className="subHeading">
                 Crafting Digital Experiences in Canada
               </h2>
-              <p className="description">
+              <h6 className="description lh-base  mb-5">
                 At Halifax Softwares, we specialize in creating innovative web
                 designs and robust development solutions tailored to enhance
                 your online presence. Based in Canada, our passionate team is
@@ -145,7 +145,7 @@ const Home = () => {
                 cutting-edge technology and creative strategies. Whether you're
                 launching a new website or revamping an existing one, Halifax
                 Softwares ensures a seamless journey from concept to completion.
-              </p>
+              </h6>
             </Col>
           </Row>
         </Container>
@@ -154,7 +154,7 @@ const Home = () => {
         <Row className="align-items-center text-white">
           <Col sm={12} md={6} className="my-2">
             <h1 className="headline">Build Your Brand with Us.</h1>
-            <h6 className="description">
+            <h6 className="description lh-base">
               Elevate your online presence with Halifax Softwares' expert web
               design and development services, tailored for Canadian businesses.
             </h6>
