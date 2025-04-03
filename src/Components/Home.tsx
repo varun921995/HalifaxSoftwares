@@ -7,7 +7,6 @@ import image8 from "/img/home/image8.png";
 import image9 from "/img/home/image9.png";
 import image10 from "/img/halifax-tech/image2.webp";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import logo from "/img/ESD-light.png";
 
 const Home = () => {
   return (
