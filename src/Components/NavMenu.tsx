@@ -1,11 +1,11 @@
 import { useState } from "react";
-import Container from "react-bootstrap/Container";
+import { Container, Image } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { HiMiniBars4 } from "react-icons/hi2";
 import { RxCross1 } from "react-icons/rx";
 import { NavLink } from "react-router-dom";
-
+import logo from "/img/ESD-light.png";
 const NavMenu = () => {
   const [expanded, setExpanded] = useState(false);
 
@@ -16,7 +16,9 @@ const NavMenu = () => {
       expanded={expanded}
     >
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <Image className="logo" src={logo}></Image>
+        </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           onClick={() => setExpanded(!expanded)}

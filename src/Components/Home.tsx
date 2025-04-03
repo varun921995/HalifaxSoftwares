@@ -7,6 +7,7 @@ import image8 from "/img/home/image8.png";
 import image9 from "/img/home/image9.png";
 import image10 from "/img/halifax-tech/image2.webp";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import logo from "/img/ESD-light.png";
 
 const Home = () => {
   return (
@@ -172,13 +173,13 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-      <div style={{ background: "#071322", padding: "5% 0%" }}>
+      <div>
         <Container fluid className="my-5">
           <Row className="text-center text-white">
             <h1 className="headline">Four ways we can work together</h1>
           </Row>
           <Row className="align-items-stretch">
-            <Col sm={12} md={3} className="my-2">
+            <Col sm={12} md={6} lg={3} className="my-2">
               <Card className="p-4 h-100 d-flex flex-column card-bg text-white">
                 <Card.Body className="d-flex flex-column flex-grow-1 card-border-left">
                   <Card.Title className="subHeading">
@@ -191,7 +192,7 @@ const Home = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={12} md={3} className="my-2">
+            <Col sm={12} md={6} lg={3} className="my-2">
               <Card className="p-4 h-100 d-flex flex-column  card-bg text-white">
                 <Card.Body className="d-flex flex-column flex-grow-1  card-border-left">
                   <Card.Title className="subHeading">
@@ -204,7 +205,7 @@ const Home = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={12} md={3} className="my-2">
+            <Col sm={12} md={6} lg={3} className="my-2">
               <Card className="p-4 h-100 d-flex flex-column  card-bg text-white">
                 <Card.Body className="d-flex flex-column flex-grow-1  card-border-left">
                   <Card.Title className="subHeading">
@@ -217,7 +218,7 @@ const Home = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={12} md={3} className="my-2">
+            <Col sm={12} md={6} lg={3} className="my-2">
               <Card className="p-4 h-100 d-flex flex-column  card-bg text-white">
                 <Card.Body className="d-flex flex-column flex-grow-1  card-border-left">
                   <Card.Title className="subHeading">
@@ -232,9 +233,6 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
-      </div>
-      <div style={{ padding: "5% 0%" }}>
-        <h1 className="subHeading">EastCoast Digital</h1>
       </div>
     </>
   );
